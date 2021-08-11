@@ -1,13 +1,11 @@
- 
+import Hello from './components/Hello';
 import './App.css';
 
 const App = () => {
   return (
     <div>
-      <h1>Hello Sui Generis!!!!</h1>
-      <p>I love semicolon.</p>
+      <Hello />
     </div>
-    
   );
 }
 
