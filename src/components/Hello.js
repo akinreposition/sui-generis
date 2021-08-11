@@ -4,7 +4,7 @@ const Hello = () => {
     return (
     <div  className="f1 tc">
       <h1>Hello Sui Generis!</h1>
-      <p>I love semicolon.</p>
+      <p>Contact Info.</p>
     </div>
     )
 }
