@@ -1,5 +1,6 @@
 
 .bg-purple { background-color: var(--purple); }
+.card {background: linear-gradient(to left, rgba(247, 50, 76, 0.671) 0%, rgb(252, 252, 252) 100%);}
 .name {
     color: var(--dark-red);;
     font: Comfortaa;

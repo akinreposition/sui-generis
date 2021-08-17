@@ -41,16 +41,16 @@ export const nativesInfo = [
       id: 1,
       name: 'Joshua',
       username: 'Josherse',
-      mobile: '08045678912',
+      mobile: '08142235205',
       gitRepo: 'github.com/username',
-      email: 'josherve@gmail.com',
+      email: `josherve@gmail.com`,
       imgSrc: josh
     },
     {
       id: 2,
       name: 'Abraham Ariyo',
       username: 'Father Abraham',
-      mobile: '08045678912',
+      mobile: '08102435583',
       gitRepo: 'github.com/username',
       email: 'abrahamariyo@gmail.com',
       imgSrc: abraham
@@ -59,15 +59,15 @@ export const nativesInfo = [
       id: 3,
       name: 'Adebayo Adesanya',
       username: 'Big Daddy',
-      mobile: '08045678912',
+      mobile: '08063026565',
       email: 'adebayoadesanya@gmail.com',
       imgSrc: adebayo
     },
     {
       id: 4,
-      name: 'Mrs Adejoke',
+      name: 'Adejoke Ogungbire',
       username: 'Health mummy',
-      mobile: '08045678912',
+      mobile: '08171438418',
       gitRepo: 'github.com/username',
       email: 'adejoke@gmail.com',
       imgSrc: adejoke
@@ -76,7 +76,7 @@ export const nativesInfo = [
       id: 5,
       name: 'Makinde Akinola',
       username: 'Javascript guy',
-      mobile: '08045678912',
+      mobile: '08106683185',
       gitRepo: 'github.com/username',
       email: 'akinmakind@gmail.com',
       imgSrc: akinola
@@ -85,16 +85,16 @@ export const nativesInfo = [
       id: 6,
       name: 'Samuel Bako',
       username: 'Cool Stuff',
-      mobile: '08045678912',
+      mobile: '07063061961',
       gitRepo: 'github.com/username',
       email: 'bakosamuel@gmail.com',
       imgSrc: bako
     },
     {
       id: 7,
-      name: 'Wole Bejide',
+      name: 'Jewole Bejide',
       username: 'Journalist',
-      mobile: '08045678912',
+      mobile: '08079518650',
       gitRepo: 'github.com/username',
       email: 'wolebejide@gmail.com',
       imgSrc: bejide
@@ -103,7 +103,7 @@ export const nativesInfo = [
       id: 8,
       name: 'Chibuzor',
       username: 'Jesus Java',
-      mobile: '08045678912',
+      mobile: '07031038346',
       gitRepo: 'github.com/username',
       email: 'chibuzor@gmail.com',
       imgSrc: chibuzor
@@ -112,7 +112,7 @@ export const nativesInfo = [
       id: 9,
       name: 'Samuel Cynthia',
       username: 'UI Makeup',
-      mobile: '08045678912',
+      mobile: '08060851430',
       gitRepo: 'github.com/username',
       email: 'syndie@gmail.com',
       imgSrc: cynthia
@@ -121,7 +121,7 @@ export const nativesInfo = [
       id: 10,
       name: 'Dayo',
       username: 'Good boy',
-      mobile: '08045678912',
+      mobile: '08106300730',
       gitRepo: 'github.com/username',
       email: 'dayo@gmail.com',
       imgSrc: dayo
@@ -130,7 +130,7 @@ export const nativesInfo = [
       id: 11,
       name: 'Femi',
       username: 'automain',
-      mobile: '08045678912',
+      mobile: '08036711758',
       gitRepo: 'github.com/username',
       email: 'femiautomain@gmail.com',
       imgSrc: femi
@@ -140,7 +140,7 @@ export const nativesInfo = [
       id: 12,
       name: 'Florence',
       username: 'Adenike',
-      mobile: '08045678912',
+      mobile: '08064658827',
       gitRepo: 'github.com/username',
       email: 'adenike@gmail.com',
       imgSrc: florence
@@ -149,7 +149,7 @@ export const nativesInfo = [
       id: 13,
       name: 'Funsho Odunlami',
       username: 'Ihs boy',
-      mobile: '08045678912',
+      mobile: '07031751915',
       gitRepo: 'github.com/username',
       email: 'funsho@gmail.com',
       imgSrc: funsho
@@ -158,7 +158,7 @@ export const nativesInfo = [
       id: 14,
       name: 'Hamed',
       username: 'oko kemi',
-      mobile: '08045678912',
+      mobile: '08104576319',
       gitRepo: 'github.com/username',
       email: 'oko_kemi@gmail.com',
       imgSrc: hamed
@@ -167,7 +167,7 @@ export const nativesInfo = [
       id: 15,
       name: 'Isaac',
       username: 'isaac cove',
-      mobile: '08045678912',
+      mobile: '08062871275',
       gitRepo: 'github.com/username',
       email: 'coveworld@gmail.com',
       imgSrc: isaac
@@ -176,7 +176,7 @@ export const nativesInfo = [
       id: 16,
       name: 'jibola',
       username: 'jb ',
-      mobile: '08045678912',
+      mobile: '07065059986',
       gitRepo: 'github.com/username',
       email: 'jibowu@gmail.com',
       imgSrc: jibola
@@ -185,7 +185,7 @@ export const nativesInfo = [
       id: 17,
       name: 'Joel',
       username: 'jango guru',
-      mobile: '08045678912',
+      mobile: '09091289130',
       gitRepo: 'github.com/username',
       email: 'joel@gmail.com',
       imgSrc: joel
@@ -194,7 +194,7 @@ export const nativesInfo = [
       id: 18,
       name: 'Kayode',
       username: 'Priest',
-      mobile: '08045678912',
+      mobile: '08053026103',
       gitRepo: 'github.com/username',
       email: 'kaypriest@gmail.com',
       imgSrc: kayode
@@ -203,7 +203,7 @@ export const nativesInfo = [
       id: 19,
       name: 'kelly',
       username: 'dreads guy',
-      mobile: '08045678912',
+      mobile: '08138015039',
       gitRepo: 'github.com/username',
       email: 'kellyhandsome@gmail.com',
       imgSrc: kelly
@@ -212,7 +212,7 @@ export const nativesInfo = [
       id: 20,
       name: 'kemi yusuf',
       username: 'kemz',
-      mobile: '08045678912',
+      mobile: '07086265551',
       gitRepo: 'github.com/username',
       email: 'kemiyusuf@gmail.com',
       imgSrc: kemi
@@ -221,7 +221,7 @@ export const nativesInfo = [
       id: 21,
       name: 'kunle',
       username: 'kunle baba',
-      mobile: '08045678912',
+      mobile: '07052636269',
       gitRepo: 'github.com/username',
       email: 'kunle@gmail.com',
       imgSrc: kunle
@@ -230,7 +230,7 @@ export const nativesInfo = [
       id: 22,
       name: 'moby',
       username: 'Best student',
-      mobile: '08045678912',
+      mobile: '07055916744',
       gitRepo: 'github.com/username',
       email: 'moby@gmail.com',
       imgSrc: moby
@@ -239,7 +239,7 @@ export const nativesInfo = [
       id: 23,
       name: 'Naheem Noah',
       username: 'Business guy',
-      mobile: '08045678912',
+      mobile: '08167389490',
       gitRepo: 'github.com/username',
       email: 'naheemnoah@gmail.com',
       imgSrc: naheem
@@ -248,16 +248,16 @@ export const nativesInfo = [
       id: 24,
       name: 'Nelson',
       username: 'Crypto Iwise',
-      mobile: '08045678912',
+      mobile: '08176969158',
       gitRepo: 'github.com/username',
       email: 'iwise@gmail.com',
       imgSrc: nelson
     },
     {
       id: 25,
-      name: 'somto',
+      name: 'somto momah',
       username: 'somto hairless',
-      mobile: '08045678912',
+      mobile: '08154084233',
       gitRepo: 'github.com/username',
       email: 'somtohairless@gmail.com',
       imgSrc: somto
@@ -275,7 +275,7 @@ export const nativesInfo = [
       id: 27,
       name: 'ohis',
       username: 'APC',
-      mobile: '08045678912',
+      mobile: '07062884086',
       gitRepo: 'github.com/username',
       email: 'samuelohis@gmail.com',
       imgSrc: ohis
@@ -284,7 +284,7 @@ export const nativesInfo = [
       id: 28,
       name: 'Ojo Ilesanmi',
       username: 'Oko tofunmi',
-      mobile: '08045678912',
+      mobile: '08101854049',
       gitRepo: 'github.com/username',
       email: 'ilesanmiojo@gmail.com',
       imgSrc: ojo
@@ -293,7 +293,7 @@ export const nativesInfo = [
       id: 29,
       name: 'Segun',
       username: 'Frontend Master',
-      mobile: '08045678912',
+      mobile: '07030915589',
       gitRepo: 'github.com/username',
       email: 'segun@gmail.com',
       imgSrc: segun
@@ -302,7 +302,7 @@ export const nativesInfo = [
       id: 30,
       name: 'Mr Shola',
       username: 'Business Analyst',
-      mobile: '08045678912',
+      mobile: '08034984915',
       gitRepo: 'github.com/username',
       email: 'shola@gmail.com',
       imgSrc: shola
@@ -311,7 +311,7 @@ export const nativesInfo = [
       id: 31,
       name: 'Taver',
       username: 'cyber security',
-      mobile: '08045678912',
+      mobile: '08034485468',
       gitRepo: 'github.com/username',
       email: 'taver@gmail.com',
       imgSrc: taver
@@ -320,7 +320,7 @@ export const nativesInfo = [
       id: 32,
       name: 'Olakunle Tayo',
       username: 'tayo Mobile dev',
-      mobile: '08045678912',
+      mobile: '08066701121',
       gitRepo: 'github.com/username',
       email: 'olakunletayo@gmail.com',
       imgSrc: tayo
@@ -329,7 +329,7 @@ export const nativesInfo = [
       id: 33,
       name: 'Tofunmi Ilesanmi',
       username: 'cutie',
-      mobile: '08045678912',
+      mobile: '08064848361',
       gitRepo: 'github.com/username',
       email: 'tofunmi@gmail.com',
       imgSrc: tofunmi
@@ -338,7 +338,7 @@ export const nativesInfo = [
       id: 34,
       name: 'uju',
       username: 'mother teresa',
-      mobile: '08045678912',
+      mobile: '08066491099',
       gitRepo: 'github.com/username',
       email: 'ujubabe@gmail.com',
       imgSrc: uju
@@ -347,7 +347,7 @@ export const nativesInfo = [
       id: 35,
       name: 'waliu olaifa',
       username: 'Professor',
-      mobile: '08045678912',
+      mobile: '08096525895',
       gitRepo: 'github.com/username',
       email: 'olaifawaliu@gmail.com',
       imgSrc: waliu
@@ -356,7 +356,7 @@ export const nativesInfo = [
       id: 36,
       name: 'Yinka',
       username: 'yinka gentle',
-      mobile: '08045678912',
+      mobile: '08118474754',
       gitRepo: 'github.com/username',
       email: 'yinka@gmail.com',
       imgSrc: yinka

@@ -1,0 +1,15 @@
+h1 {
+    color: red;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: medium;
+}
+
+p{
+    color: var(--dark-color);
+    font-family: Comfortnaa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: medium;
+}

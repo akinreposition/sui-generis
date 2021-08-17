@@ -1,18 +1,16 @@
 import React from 'react'
-import { nativesInfo } from './helper'
 import Card from './Card'
 
-const index = () => {
-    const cardsArray =nativesInfo.map(data => (
+const Index = ({ nativesInfo }) => {
+    const cardsArray = nativesInfo.map(data => (
         <Card {...data} key={data.id} />
     ));
     return (
         <div>
-            <div>
+            <div className="">
                 {cardsArray}
             </div>
         </div>
     )
 }
-
-export default index
+export default Index

@@ -1,7 +1,13 @@
 @import './styles/allstyles.css';
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa');
 
 :root{
   --dark-red :  #e7040f;
   --purple : #5e2ca5;
+  --white3-color: #e5e5e5;
+  --blue-color: #0066f5;
+  --red-color:#ff5454;
+  --dark-color: #333333;
 }

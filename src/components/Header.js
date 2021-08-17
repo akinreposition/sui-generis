@@ -1,12 +1,12 @@
 import React from 'react'
 
-const Hello = () => {
+const Header = () => {
     return (
     <div  className="f1 tc">
       <h1>Hello Sui Generis!</h1>
-      <p>Contact Info.</p>
+      {/* <p>Not all sui-generian are included! </p> */}
     </div>
     )
 }
 
-export default Hello
+export default Header
