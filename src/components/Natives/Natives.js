@@ -1,7 +1,7 @@
 import React from 'react'
 import Card from './Card'
 
-const Index = ({ nativesInfo }) => {
+const Natives = ({ nativesInfo }) => {
     const cardsArray = nativesInfo.map(data => (
         <Card {...data} key={data.id} />
     ));
@@ -13,4 +13,4 @@ const Index = ({ nativesInfo }) => {
         </div>
     )
 }
-export default Index
+export default Natives

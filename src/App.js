@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
 import SearchBox from './components/searches/SearchBox'
-import Natives  from './components/Natives/Index'
+import Natives  from './components/Natives/Natives'
 import { nativesInfo } from './components/Natives/helper'
 import Spinner from './components/Spinner/Spinner'
-import Scroll from './components/scroll/Scroll'
 import './App.css';
 
 
@@ -35,9 +34,7 @@ class App extends Component {
           <div className='tc'>
             <Header />
             <SearchBox searchChange={this.onSearchChange}/>
-            <Scroll>
-              <Natives nativesInfo={filteredNatives}/>
-            </Scroll>
+            <Natives nativesInfo={filteredNatives}/>
           </div>
         )
    }
