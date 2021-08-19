@@ -26,13 +26,12 @@ class App extends Component {
       this.setState({ searchField : e.target.value});   
    }
    render(){
-    const filteredNatives = this.state.natives.filter(native => {
-      return native.name.toLowerCase().includes(this.state.searchField.toLowerCase())
-      });
-      if ( this.state.natives.length === 0) {
-        return <Spinner />
-      }else {
-        return (
+      const { natives, searchField } = this.state;
+      const filteredNatives = natives.filter(native => {
+        return native.name.toLowerCase().includes(searchField.toLowerCase())
+      }); 
+      return !natives.length ? <Spinner /> :
+        (
           <div className='tc'>
             <Header />
             <SearchBox searchChange={this.onSearchChange}/>
@@ -41,7 +40,6 @@ class App extends Component {
             </Scroll>
           </div>
         )
-      }
    }
 }
 
