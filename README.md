@@ -31,16 +31,16 @@ my-app
 ├── public
 │   ├── favicon.ico
 │   ├── index.html
-│   ├── logo192.png
-│   ├── logo512.png
 │   ├── manifest.json
 │   └── robots.txt
+|   ├── semicolon.png
+│   ├── semicolonLogo.png
 └── src
     ├── Assets
     ├── components
-    ├── context
-    ├── Dashboard
-    ├── pages
+    ├── 
+    ├── 
+    ├── 
     ├── styles
     ├── App.css
     ├── App.js

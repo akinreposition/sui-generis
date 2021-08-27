@@ -1,0 +1,58 @@
+.hamburger,
+.hamburger::after,
+.hamburger::before {
+    width: 32px;
+    height: 2px;
+    background-color: var(--red-color);
+}
+.hamburger {
+    display: block;
+    position: relative;
+    float: right;
+}
+.hamburger::before {
+    content: '';
+    position: absolute;
+    background-color: var(--red-color);
+    top: -10px;
+    right: 0;
+}
+.hamburger::after {
+    content: '';
+    position: absolute;
+    background-color: var(--red-color);
+    top: 10px;
+    right: 0;
+}
+.contain {
+    height: 10vh;
+    width: 100%;
+    margin-top: 40px;
+    margin-right: 25px;
+}
+.hamburger-close {
+    display: block;
+    position: relative;
+    float: right;
+    height: 5px;
+    width: 40px;
+}
+.hamburger-close::before {
+    display: none;
+}
+.hamburger-close::after {
+    display: none;
+}
+@media (max-width: 500px) {
+    .home-cta_group {
+        width: 375px;
+        max-width: 100%;
+    }
+    .home-hero_select-service {
+        width: 80% !important;
+    }
+    .home-hero_Typography,
+    .home-hero_Typography-text {
+        padding-top: 0;
+    }
+}

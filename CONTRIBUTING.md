@@ -1,9 +1,9 @@
-# CDA { Community Development Association} Frontend Codebase
+# SUI-GENERIS { web directory for natives } Frontend Codebase
 
 Please before you push your codes to the repository make sure you pull from the repository, so the changes that have been made can be reflected on your local machine, for us to avoid merge conflicts use the git command line
 
 ```
-git pull origin develop
+git pull origin development
 ```
 
 ## Developers guide.
@@ -14,13 +14,13 @@ This process here should be able to guide you on how to contribute effectively t
 - Clone the repository.
 
 ```
- git clone https://github.com/akinreposition/ikorodu-web.git
+ git clone https://github.com/akinreposition/sui-generis.git
 ```
 
-- Make the original automain-DEv/frontend repo the remote origin (at origin)
+- Make the original semicolon_natives/frontend repo the remote origin (at origin)
 
 ```
-git remote add origin https://github.com/akinreposition/ikorodu-web.git
+git remote add origin https://github.com/akinreposition/sui-generis.git
 ```
 
 - Create a branch FROM develop, ALWAYS CREATE YOUR BRANCH FROM DEVELOP,
@@ -33,10 +33,10 @@ git checkout -b (name-of-branch)
 After changes have been made do:
 
 ```
-git pull origin develop
+git pull origin development
 ```
 
-Consistently pull from the develop branch to avoid not getting your pull request merged and to avoid conflicts.
+Consistently pull from the development branch to avoid not getting your pull request merged and to avoid conflicts.
 This way you can resolve conflicts from your local computer even before pushing always check what branch you are on when making changes
 
 - Make your changes, add your changes
@@ -58,7 +58,7 @@ git commit -m "your message"
 git push origin (name-of-branch)
 ```
 
-Make your Pull request from that branch  o the develop branch repo and wait for it to be merged.
+Make your Pull request from that branch  of the development branch repo and wait for it to be merged.
 
 Write good commit messages, this is very important, so people reviewing can know what your fix, feature e.t.c. is doing
 Your PR should carry the story / task URL (instruction from above).

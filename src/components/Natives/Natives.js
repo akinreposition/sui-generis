@@ -1,15 +1,15 @@
 import React from 'react'
+// import SuiGenerisContext from '../../context/sui-generis/suiGenerisContext'
 import Card from './Card'
 
-const Natives = ({ nativesInfo }) => {
-    const cardsArray = nativesInfo.map(data => (
-        <Card {...data} key={data.id} />
-    ));
+const Natives = ({ natives }) => {
+    // const suiGenerisContext = useContext(SuiGenerisContext)
+    // const { natives } = suiGenerisContext;
     return (
-        <div>
-            <div className="">
-                {cardsArray}
-            </div>
+        <div style={{marginTop: '3%'}}>
+            {natives.map((data, id) =>
+                <Card {...data} key={id} />
+            )}  
         </div>
     )
 }
