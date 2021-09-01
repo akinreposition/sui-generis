@@ -1,12 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-// import SearchBox from '../searches/SearchBox'
+import SearchBox from '../searches/SearchBox'
 import semicolon from "../../assets/semicolon.png"
-// import SuiGenerisContext from '../../context/sui-generis/suiGenerisContext'
 
-export const DesktopNavigation = ({ searchChange }) => {
-    // const suiGenerisContext = useContext(SuiGenerisContext);
-    // const { onSearchChange } = suiGenerisContext;
+
+export const DesktopNavigation2 = ({ searchChange }) => {
+ 
     return (
         <nav className="navbar">
             <div className="logo">
@@ -18,11 +17,11 @@ export const DesktopNavigation = ({ searchChange }) => {
                 <div className="navbar-natural">
                     <div className="navbar-text">
                         <ul>
-                            <li>
+                            {/* <li>
                                 <Link to="/natives">
                                     Natives
                                 </Link>
-                            </li>
+                            </li> */}
                             <li>
                                 <Link to="/cohorts">
                                     Cohorts
@@ -36,7 +35,7 @@ export const DesktopNavigation = ({ searchChange }) => {
                         </ul>
                     </div>
                 </div>
-                
+                <SearchBox searchChange={searchChange}/>
             </div>
         </nav>
     )

@@ -4,7 +4,7 @@ import suiGenerisContext from './suiGenerisContext';
 import { suiGenerisReducer } from './suiGenerisReducer';
 import {    SEARCH_NATIVES,
             SET_LOADING,
-            SET_SEARCH_FIELD
+            // SET_SEARCH_FIELD
         } from '../types'
 import { nativesInfo } from '../../components/Natives/helper';
 
@@ -19,19 +19,19 @@ const SuiGenerisState = props => {
     const [ state, dispatch] = useReducer (suiGenerisReducer, initState);
 
     // Set SearchField
-    const onSearchChange = (e) => {
-        e.preventDefault();
-        console.log(e)
-        // this.setState = ({[e.target.searchField] : e.target.value});
-        dispatch({ 
-            type: SET_SEARCH_FIELD,
-            payload:  this.setState({[e.target.searchField] : e.target.value})
-        });
-    }
+    // const onSearchChange = (e) => {
+    //     e.preventDefault();
+    //     console.log(e)
+    //     // this.setState = ({[e.target.searchField] : e.target.value});
+    //     dispatch({ 
+    //         type: SET_SEARCH_FIELD,
+    //         payload:  this.setState({searchField : e.target.value})
+    //     });
+    // }
 
     // Search Native
     const searchNative = async text => {
-        setLoading();
+        // setLoading();
         const { natives, searchField } = initState;
         // const response = await axios.get(``)    // paste endpoint here
         const filteredNatives =  natives.filter(native => { 
@@ -56,7 +56,7 @@ const SuiGenerisState = props => {
             searchField: state.searchField,
             loading: state.loading,
             searchNative,
-            onSearchChange,
+            // onSearchChange,
             setLoading,
         }}
         >

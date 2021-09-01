@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 import semicolon from "../../assets/semicolon.png"
 import SearchBox from '../searches/SearchBox';
 
@@ -17,17 +18,23 @@ export const MobileNavigation = ({ searchChange }) => {
                 </div>
 
                 <div className="navbar-text">
-                    <ul>
-                        <li>
-                            Name
-                        </li>
-                        <li>
-                            Cohort
-                        </li>
-                        <li>
+                <ul>
+                    <li>
+                        <Link to="./natives">
+                             Natives
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="./cohorts">
+                            Cohorts
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="./techstack">
                             TechStack
-                        </li>
-                    </ul>
+                        </Link>
+                    </li>
+                </ul>
                 </div>
                  <SearchBox searchChange={searchChange}/>
                 </div>
