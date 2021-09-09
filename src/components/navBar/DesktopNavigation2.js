@@ -17,11 +17,6 @@ export const DesktopNavigation2 = ({ searchChange }) => {
                 <div className="navbar-natural">
                     <div className="navbar-text">
                         <ul>
-                            {/* <li>
-                                <Link to="/natives">
-                                    Natives
-                                </Link>
-                            </li> */}
                             <li>
                                 <Link to="/cohorts">
                                     Cohorts

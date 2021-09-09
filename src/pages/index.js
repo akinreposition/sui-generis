@@ -1,6 +1,7 @@
 import React, { Component }  from 'react'
 import Navbar from '../components/navBar/Navbar';
 import Header from '../components/Header';
+import HomeScreen from './HomeScreen';
 
 class Index extends Component  {
     constructor() {
@@ -15,6 +16,7 @@ class Index extends Component  {
         <div className='tc'>
             <Navbar searchChange={this.onSearchChange}/>
             <Header />
+            <HomeScreen />
         </div>
         )
     }
