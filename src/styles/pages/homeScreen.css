@@ -1,0 +1,18 @@
+.container {
+    width: auto;
+    display: inline-flex;
+    background-color: aqua;
+}
+
+.leftArrow {
+    display: inline-flex;
+    color: red;
+    margin-top: 10px;
+    margin-right: 10%;
+}
+.rightArrow {
+    display:inline-flex;
+    color: red;
+    margin-top: 10px;
+    margin-left: 10%;
+}

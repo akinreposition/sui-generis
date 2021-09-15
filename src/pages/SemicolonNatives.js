@@ -1,6 +1,6 @@
 import React, { Component }  from 'react'
-import Natives  from '../components/Natives/Natives'
-import { nativesInfo } from '../components/Natives/helper';
+import Natives  from '../components/natives/Natives'
+import { nativesInfo } from '../components/natives/helper';
 import Navbar2 from '../components/navBar/Navbar2';
 
 class SemicolonNatives extends Component {
@@ -20,7 +20,7 @@ class SemicolonNatives extends Component {
         });
     return (
         <div className='tc'>
-            <Navbar2 />
+            <Navbar2 searchChange={this.onSearchChange}/>
             <Natives natives={ filteredNatives }/>
         </div>
         )

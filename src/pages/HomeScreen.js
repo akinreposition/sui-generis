@@ -2,37 +2,35 @@ import React, { useState } from 'react'
 import { BiLeftArrow, BiRightArrow } from 'react-icons/bi'
 
 const HomeScreen = () => {
-    const [statment1, setStatment1] = useState([
+    const [statements, setStatments] = useState([
         "welcome to the Native home page",
         "Choose among the stack available",
         "we coding with love"
     ])
-    const [ name, setName ] = useState("")
+    // const [ name, setName ] = useState("")
     const [ page, setPage ] = useState(0);
 
-    const nextState = () => {
+    const nextPage = () => {
         setPage(page + 1);
+        console.log("Pressed next page.");
     }
 
-    const preState = () => {
+    const prePage = (e) => {
         if( page < 0){
-            setPage(statment1.length);
+            setPage(statements.length);
         }else{
-            setPage(page -1);
+            setPage(page - 1);
         }
+        console.log("Pressed previous page.");
     }
-    const addStatment = () => {
-        setStatment1([...statment1, name])
-    }
+    // const addStatment = () => {
+    //     setStatment1([...statment1, name])
+    // }
     return (
-        <div className='tc'>
-            <section>
-                <BiLeftArrow onClick={preState}/>
-            </section>
-                <p>{statment1}</p>
-            <section>
-                <BiRightArrow onClick={nextState}/>
-            </section>
+        <div className='container'>
+                <BiLeftArrow onClick={prePage} className="leftArrow"/>
+                <span>{statements}</span>
+                <BiRightArrow onClick={nextPage} className="rightArrow"/>
         </div>
     )
 }

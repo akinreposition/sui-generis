@@ -6,7 +6,7 @@ import {    SEARCH_NATIVES,
             SET_LOADING,
             // SET_SEARCH_FIELD
         } from '../types'
-import { nativesInfo } from '../../components/Natives/helper';
+import { nativesInfo } from '../../components/natives/helper';
 
 const SuiGenerisState = props => {
     const initState = {
