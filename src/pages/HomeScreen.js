@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { BiLeftArrow, BiRightArrow } from 'react-icons/bi'
 
 const HomeScreen = () => {
-    const [statements, setStatments] = useState([
+    const [statements] = useState([
         "welcome to the Native home page",
         "Choose among the stack available",
         "we coding with love"
@@ -10,7 +10,7 @@ const HomeScreen = () => {
     // const [ name, setName ] = useState("")
     const [ page, setPage ] = useState(0);
 
-    const nextPage = () => {
+    const nextPage = (e) => {
         setPage(page + 1);
         console.log("Pressed next page.");
     }
