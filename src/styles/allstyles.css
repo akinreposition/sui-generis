@@ -1,0 +1,7 @@
+@import './components/header.css';
+@import './components/cards.css';
+@import './box-model.css';
+@import './components/navbar/desktopNavigation.css';
+@import './components/navbar/mobileNavigation.css';
+@import './responsive/home.css';
+@import './pages/homeScreen.css'

@@ -1,0 +1,3 @@
+export const SEARCH_NATIVES = 'SEARCH_NATIVES';
+export const SET_LOADING = 'SET_LOADING';
+export const SET_SEARCH_FIELD = 'SET_SEARCH_FIELD';
