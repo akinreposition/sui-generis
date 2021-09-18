@@ -7,7 +7,7 @@ const HomeScreen = () => {
         "Choose among the stack available",
         "we coding with love"
     ])
-    // const [ name, setName ] = useState("")
+    
     const [ page, setPage ] = useState(0);
 
     const nextPage = (e) => {
@@ -23,9 +23,7 @@ const HomeScreen = () => {
         }
         console.log("Pressed previous page.");
     }
-    // const addStatment = () => {
-    //     setStatment1([...statment1, name])
-    // }
+
     return (
         <div className='container'>
                 <BiLeftArrow onClick={prePage} className="leftArrow"/>
