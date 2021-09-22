@@ -1,9 +1,9 @@
 import React, { Component }  from 'react'
 import Navbar from '../components/navBar/Navbar';
 import Header from '../components/Header';
-import HomeScreen from './HomeScreen';
+import Footer from '../components/footer/Footer'
 
-class Index extends Component  {
+class LandingPage extends Component  {
     constructor() {
         super();
         this.state = {
@@ -16,10 +16,10 @@ class Index extends Component  {
         <div className='tc'>
             <Navbar searchChange={this.onSearchChange}/>
             <Header />
-            <HomeScreen />
+            <Footer />
         </div>
         )
     }
 }
 
-export default Index
+export default LandingPage

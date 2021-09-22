@@ -4,4 +4,5 @@
 @import './components/navbar/desktopNavigation.css';
 @import './components/navbar/mobileNavigation.css';
 @import './responsive/home.css';
-@import './pages/homeScreen.css'
+@import './pages/homeScreen.css';
+@import './components/footer/footer.css';
